@@ -53,6 +53,8 @@
 		FFCF1D952647F835007FE36D /* NotSOLIDConsoleATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D8B2647F835007FE36D /* NotSOLIDConsoleATM.swift */; };
 		FFCF1D962647F835007FE36D /* NotSOLIDATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D8C2647F835007FE36D /* NotSOLIDATM.swift */; };
 		FFCF1D972647F835007FE36D /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D8D2647F835007FE36D /* Transaction.swift */; };
+		FFCF1D9C2647F8C6007FE36D /* NOTSOLIDSea.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D9B2647F8C6007FE36D /* NOTSOLIDSea.swift */; };
+		FFCF1DA12647FA13007FE36D /* Screenshot 2021-05-09 at 3.49.04 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = FFCF1DA02647FA13007FE36D /* Screenshot 2021-05-09 at 3.49.04 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +106,8 @@
 		FFCF1D8B2647F835007FE36D /* NotSOLIDConsoleATM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSOLIDConsoleATM.swift; sourceTree = "<group>"; };
 		FFCF1D8C2647F835007FE36D /* NotSOLIDATM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSOLIDATM.swift; sourceTree = "<group>"; };
 		FFCF1D8D2647F835007FE36D /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		FFCF1D9B2647F8C6007FE36D /* NOTSOLIDSea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOTSOLIDSea.swift; sourceTree = "<group>"; };
+		FFCF1DA02647FA13007FE36D /* Screenshot 2021-05-09 at 3.49.04 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2021-05-09 at 3.49.04 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,7 @@
 		FFCF1D222647F7BF007FE36D /* SOLIDExample */ = {
 			isa = PBXGroup;
 			children = (
+				FFCF1DA02647FA13007FE36D /* Screenshot 2021-05-09 at 3.49.04 PM.png */,
 				FFCF1D812647F835007FE36D /* ATMExample */,
 				FFCF1D732647F82F007FE36D /* SquareRectangleExample */,
 				FFCF1D5A2647F823007FE36D /* Dive Example */,
@@ -192,9 +197,8 @@
 		FFCF1D5A2647F823007FE36D /* Dive Example */ = {
 			isa = PBXGroup;
 			children = (
-				FFCF1D5B2647F823007FE36D /* Dive */,
-				FFCF1D5F2647F823007FE36D /* Animal */,
-				FFCF1D652647F823007FE36D /* Sea */,
+				FFCF1D9A2647F8B2007FE36D /* Not SOLID */,
+				FFCF1D992647F8A6007FE36D /* Solid */,
 			);
 			path = "Dive Example";
 			sourceTree = "<group>";
@@ -291,6 +295,24 @@
 			path = NotSOLID;
 			sourceTree = "<group>";
 		};
+		FFCF1D992647F8A6007FE36D /* Solid */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF1D5B2647F823007FE36D /* Dive */,
+				FFCF1D5F2647F823007FE36D /* Animal */,
+				FFCF1D652647F823007FE36D /* Sea */,
+			);
+			path = Solid;
+			sourceTree = "<group>";
+		};
+		FFCF1D9A2647F8B2007FE36D /* Not SOLID */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF1D9B2647F8C6007FE36D /* NOTSOLIDSea.swift */,
+			);
+			path = "Not SOLID";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -351,6 +373,7 @@
 				FFCF1D302647F7C1007FE36D /* LaunchScreen.storyboard in Resources */,
 				FFCF1D2D2647F7C1007FE36D /* Assets.xcassets in Resources */,
 				FFCF1D2B2647F7BF007FE36D /* Main.storyboard in Resources */,
+				FFCF1DA12647FA13007FE36D /* Screenshot 2021-05-09 at 3.49.04 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFCF1D6D2647F823007FE36D /* AnimalFactory.swift in Sources */,
+				FFCF1D9C2647F8C6007FE36D /* NOTSOLIDSea.swift in Sources */,
 				FFCF1D4B2647F7F0007FE36D /* SOLIDSchedulerFactory.swift in Sources */,
 				FFCF1D962647F835007FE36D /* NotSOLIDATM.swift in Sources */,
 				FFCF1D6C2647F823007FE36D /* Shark.swift in Sources */,
