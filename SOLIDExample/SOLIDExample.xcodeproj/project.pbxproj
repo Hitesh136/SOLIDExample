@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFCF1D242647F7BF007FE36D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D232647F7BF007FE36D /* AppDelegate.swift */; };
+		FFCF1D262647F7BF007FE36D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D252647F7BF007FE36D /* SceneDelegate.swift */; };
+		FFCF1D282647F7BF007FE36D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D272647F7BF007FE36D /* ViewController.swift */; };
+		FFCF1D2B2647F7BF007FE36D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFCF1D292647F7BF007FE36D /* Main.storyboard */; };
+		FFCF1D2D2647F7C1007FE36D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCF1D2C2647F7C1007FE36D /* Assets.xcassets */; };
+		FFCF1D302647F7C1007FE36D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFCF1D2E2647F7C1007FE36D /* LaunchScreen.storyboard */; };
+		FFCF1D4A2647F7F0007FE36D /* SOLIDProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D3A2647F7F0007FE36D /* SOLIDProfileService.swift */; };
+		FFCF1D4B2647F7F0007FE36D /* SOLIDSchedulerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D3B2647F7F0007FE36D /* SOLIDSchedulerFactory.swift */; };
+		FFCF1D4C2647F7F0007FE36D /* SOLIDServiceScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D3C2647F7F0007FE36D /* SOLIDServiceScheduler.swift */; };
+		FFCF1D4D2647F7F0007FE36D /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D3D2647F7F0007FE36D /* Service.swift */; };
+		FFCF1D4E2647F7F0007FE36D /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D3E2647F7F0007FE36D /* Timer.swift */; };
+		FFCF1D4F2647F7F0007FE36D /* SOLIDTimelineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D3F2647F7F0007FE36D /* SOLIDTimelineService.swift */; };
+		FFCF1D502647F7F0007FE36D /* ServiceScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D402647F7F0007FE36D /* ServiceScheduler.swift */; };
+		FFCF1D512647F7F0007FE36D /* SOLIDClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D412647F7F0007FE36D /* SOLIDClient.swift */; };
+		FFCF1D522647F7F0007FE36D /* SOLIDServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D422647F7F0007FE36D /* SOLIDServiceFactory.swift */; };
+		FFCF1D532647F7F0007FE36D /* SOLIDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D432647F7F0007FE36D /* SOLIDTimer.swift */; };
+		FFCF1D542647F7F0007FE36D /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D442647F7F0007FE36D /* Client.swift */; };
+		FFCF1D552647F7F0007FE36D /* NotSOLIDProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D462647F7F0007FE36D /* NotSOLIDProfileService.swift */; };
+		FFCF1D562647F7F0007FE36D /* NotSOLIDServiceScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D472647F7F0007FE36D /* NotSOLIDServiceScheduler.swift */; };
+		FFCF1D572647F7F0007FE36D /* NotSOLIDClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D482647F7F0007FE36D /* NotSOLIDClient.swift */; };
+		FFCF1D582647F7F0007FE36D /* NotSOLIDTimelineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D492647F7F0007FE36D /* NotSOLIDTimelineService.swift */; };
+		FFCF1D682647F823007FE36D /* Diver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D5C2647F823007FE36D /* Diver.swift */; };
+		FFCF1D692647F823007FE36D /* DiverFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D5D2647F823007FE36D /* DiverFactory.swift */; };
+		FFCF1D6A2647F823007FE36D /* Men.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D5E2647F823007FE36D /* Men.swift */; };
+		FFCF1D6B2647F823007FE36D /* Snake.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D602647F823007FE36D /* Snake.swift */; };
+		FFCF1D6C2647F823007FE36D /* Shark.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D612647F823007FE36D /* Shark.swift */; };
+		FFCF1D6D2647F823007FE36D /* AnimalFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D622647F823007FE36D /* AnimalFactory.swift */; };
+		FFCF1D6E2647F823007FE36D /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D632647F823007FE36D /* Animal.swift */; };
+		FFCF1D6F2647F823007FE36D /* Burp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D642647F823007FE36D /* Burp.swift */; };
+		FFCF1D702647F823007FE36D /* Sea.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D662647F823007FE36D /* Sea.swift */; };
+		FFCF1D712647F823007FE36D /* SeaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D672647F823007FE36D /* SeaFactory.swift */; };
+		FFCF1D7B2647F82F007FE36D /* SOLIDShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D752647F82F007FE36D /* SOLIDShape.swift */; };
+		FFCF1D7C2647F82F007FE36D /* SOLIDSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D762647F82F007FE36D /* SOLIDSquare.swift */; };
+		FFCF1D7D2647F82F007FE36D /* SOLIDRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D772647F82F007FE36D /* SOLIDRectangle.swift */; };
+		FFCF1D7E2647F82F007FE36D /* NotSOLIDRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D792647F82F007FE36D /* NotSOLIDRectangle.swift */; };
+		FFCF1D7F2647F82F007FE36D /* NotSOLIDSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D7A2647F82F007FE36D /* NotSOLIDSquare.swift */; };
+		FFCF1D8E2647F835007FE36D /* DepositUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D832647F835007FE36D /* DepositUI.swift */; };
+		FFCF1D8F2647F835007FE36D /* SOLIDDepositUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D842647F835007FE36D /* SOLIDDepositUI.swift */; };
+		FFCF1D902647F835007FE36D /* TransferUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D852647F835007FE36D /* TransferUI.swift */; };
+		FFCF1D912647F835007FE36D /* SOLIDDepositTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D862647F835007FE36D /* SOLIDDepositTransaction.swift */; };
+		FFCF1D922647F835007FE36D /* SOLIDATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D872647F835007FE36D /* SOLIDATM.swift */; };
+		FFCF1D932647F835007FE36D /* WithdrawalUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D882647F835007FE36D /* WithdrawalUI.swift */; };
+		FFCF1D942647F835007FE36D /* NotSOLIDDepositTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D8A2647F835007FE36D /* NotSOLIDDepositTransaction.swift */; };
+		FFCF1D952647F835007FE36D /* NotSOLIDConsoleATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D8B2647F835007FE36D /* NotSOLIDConsoleATM.swift */; };
+		FFCF1D962647F835007FE36D /* NotSOLIDATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D8C2647F835007FE36D /* NotSOLIDATM.swift */; };
+		FFCF1D972647F835007FE36D /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF1D8D2647F835007FE36D /* Transaction.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FFCF1D202647F7BF007FE36D /* SOLIDExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOLIDExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFCF1D232647F7BF007FE36D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFCF1D252647F7BF007FE36D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFCF1D272647F7BF007FE36D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFCF1D2A2647F7BF007FE36D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFCF1D2C2647F7C1007FE36D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFCF1D2F2647F7C1007FE36D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFCF1D312647F7C1007FE36D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFCF1D3A2647F7F0007FE36D /* SOLIDProfileService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDProfileService.swift; sourceTree = "<group>"; };
+		FFCF1D3B2647F7F0007FE36D /* SOLIDSchedulerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDSchedulerFactory.swift; sourceTree = "<group>"; };
+		FFCF1D3C2647F7F0007FE36D /* SOLIDServiceScheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDServiceScheduler.swift; sourceTree = "<group>"; };
+		FFCF1D3D2647F7F0007FE36D /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		FFCF1D3E2647F7F0007FE36D /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		FFCF1D3F2647F7F0007FE36D /* SOLIDTimelineService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDTimelineService.swift; sourceTree = "<group>"; };
+		FFCF1D402647F7F0007FE36D /* ServiceScheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceScheduler.swift; sourceTree = "<group>"; };
+		FFCF1D412647F7F0007FE36D /* SOLIDClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDClient.swift; sourceTree = "<group>"; };
+		FFCF1D422647F7F0007FE36D /* SOLIDServiceFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDServiceFactory.swift; sourceTree = "<group>"; };
+		FFCF1D432647F7F0007FE36D /* SOLIDTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDTimer.swift; sourceTree = "<group>"; };
+		FFCF1D442647F7F0007FE36D /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		FFCF1D462647F7F0007FE36D /* NotSOLIDProfileService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSOLIDProfileService.swift; sourceTree = "<group>"; };
+		FFCF1D472647F7F0007FE36D /* NotSOLIDServiceScheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSOLIDServiceScheduler.swift; sourceTree = "<group>"; };
+		FFCF1D482647F7F0007FE36D /* NotSOLIDClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSOLIDClient.swift; sourceTree = "<group>"; };
+		FFCF1D492647F7F0007FE36D /* NotSOLIDTimelineService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSOLIDTimelineService.swift; sourceTree = "<group>"; };
+		FFCF1D5C2647F823007FE36D /* Diver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diver.swift; sourceTree = "<group>"; };
+		FFCF1D5D2647F823007FE36D /* DiverFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiverFactory.swift; sourceTree = "<group>"; };
+		FFCF1D5E2647F823007FE36D /* Men.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Men.swift; sourceTree = "<group>"; };
+		FFCF1D602647F823007FE36D /* Snake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snake.swift; sourceTree = "<group>"; };
+		FFCF1D612647F823007FE36D /* Shark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shark.swift; sourceTree = "<group>"; };
+		FFCF1D622647F823007FE36D /* AnimalFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalFactory.swift; sourceTree = "<group>"; };
+		FFCF1D632647F823007FE36D /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		FFCF1D642647F823007FE36D /* Burp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Burp.swift; sourceTree = "<group>"; };
+		FFCF1D662647F823007FE36D /* Sea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sea.swift; sourceTree = "<group>"; };
+		FFCF1D672647F823007FE36D /* SeaFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeaFactory.swift; sourceTree = "<group>"; };
+		FFCF1D752647F82F007FE36D /* SOLIDShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDShape.swift; sourceTree = "<group>"; };
+		FFCF1D762647F82F007FE36D /* SOLIDSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDSquare.swift; sourceTree = "<group>"; };
+		FFCF1D772647F82F007FE36D /* SOLIDRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDRectangle.swift; sourceTree = "<group>"; };
+		FFCF1D792647F82F007FE36D /* NotSOLIDRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSOLIDRectangle.swift; sourceTree = "<group>"; };
+		FFCF1D7A2647F82F007FE36D /* NotSOLIDSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSOLIDSquare.swift; sourceTree = "<group>"; };
+		FFCF1D832647F835007FE36D /* DepositUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepositUI.swift; sourceTree = "<group>"; };
+		FFCF1D842647F835007FE36D /* SOLIDDepositUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDDepositUI.swift; sourceTree = "<group>"; };
+		FFCF1D852647F835007FE36D /* TransferUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferUI.swift; sourceTree = "<group>"; };
+		FFCF1D862647F835007FE36D /* SOLIDDepositTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDDepositTransaction.swift; sourceTree = "<group>"; };
+		FFCF1D872647F835007FE36D /* SOLIDATM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOLIDATM.swift; sourceTree = "<group>"; };
+		FFCF1D882647F835007FE36D /* WithdrawalUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithdrawalUI.swift; sourceTree = "<group>"; };
+		FFCF1D8A2647F835007FE36D /* NotSOLIDDepositTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSOLIDDepositTransaction.swift; sourceTree = "<group>"; };
+		FFCF1D8B2647F835007FE36D /* NotSOLIDConsoleATM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSOLIDConsoleATM.swift; sourceTree = "<group>"; };
+		FFCF1D8C2647F835007FE36D /* NotSOLIDATM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotSOLIDATM.swift; sourceTree = "<group>"; };
+		FFCF1D8D2647F835007FE36D /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFCF1D1D2647F7BF007FE36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFCF1D172647F7BF007FE36D = {
+			isa = PBXGroup;
+			children = (
+				FFCF1D222647F7BF007FE36D /* SOLIDExample */,
+				FFCF1D212647F7BF007FE36D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFCF1D212647F7BF007FE36D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF1D202647F7BF007FE36D /* SOLIDExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFCF1D222647F7BF007FE36D /* SOLIDExample */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF1D812647F835007FE36D /* ATMExample */,
+				FFCF1D732647F82F007FE36D /* SquareRectangleExample */,
+				FFCF1D5A2647F823007FE36D /* Dive Example */,
+				FFCF1D382647F7F0007FE36D /* TwitterExample */,
+				FFCF1D232647F7BF007FE36D /* AppDelegate.swift */,
+				FFCF1D252647F7BF007FE36D /* SceneDelegate.swift */,
+				FFCF1D272647F7BF007FE36D /* ViewController.swift */,
+				FFCF1D292647F7BF007FE36D /* Main.storyboard */,
+				FFCF1D2C2647F7C1007FE36D /* Assets.xcassets */,
+				FFCF1D2E2647F7C1007FE36D /* LaunchScreen.storyboard */,
+				FFCF1D312647F7C1007FE36D /* Info.plist */,
+			);
+			path = SOLIDExample;
+			sourceTree = "<group>";
+		};
+		FFCF1D382647F7F0007FE36D /* TwitterExample */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF1D392647F7F0007FE36D /* SOLID */,
+				FFCF1D442647F7F0007FE36D /* Client.swift */,
+				FFCF1D452647F7F0007FE36D /* NotSOLID */,
+			);
+			path = TwitterExample;
+			sourceTree = "<group>";
+		};
+		FFCF1D392647F7F0007FE36D /* SOLID */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF1D3A2647F7F0007FE36D /* SOLIDProfileService.swift */,
+				FFCF1D3B2647F7F0007FE36D /* SOLIDSchedulerFactory.swift */,
+				FFCF1D3C2647F7F0007FE36D /* SOLIDServiceScheduler.swift */,
+				FFCF1D3D2647F7F0007FE36D /* Service.swift */,
+				FFCF1D3E2647F7F0007FE36D /* Timer.swift */,
+				FFCF1D3F2647F7F0007FE36D /* SOLIDTimelineService.swift */,
+				FFCF1D402647F7F0007FE36D /* ServiceScheduler.swift */,
+				FFCF1D412647F7F0007FE36D /* SOLIDClient.swift */,
+				FFCF1D422647F7F0007FE36D /* SOLIDServiceFactory.swift */,
+				FFCF1D432647F7F0007FE36D /* SOLIDTimer.swift */,
+			);
+			path = SOLID;
+			sourceTree = "<group>";
+		};
+		FFCF1D452647F7F0007FE36D /* NotSOLID */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF1D462647F7F0007FE36D /* NotSOLIDProfileService.swift */,
+				FFCF1D472647F7F0007FE36D /* NotSOLIDServiceScheduler.swift */,
+				FFCF1D482647F7F0007FE36D /* NotSOLIDClient.swift */,
+				FFCF1D492647F7F0007FE36D /* NotSOLIDTimelineService.swift */,
+			);
+			path = NotSOLID;
+			sourceTree = "<group>";
+		};
+		FFCF1D5A2647F823007FE36D /* Dive Example */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF1D5B2647F823007FE36D /* Dive */,
+				FFCF1D5F2647F823007FE36D /* Animal */,
+				FFCF1D652647F823007FE36D /* Sea */,
+			);
+			path = "Dive Example";
+			sourceTree = "<group>";
+		};
+		FFCF1D5B2647F823007FE36D /* Dive */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF1D5C2647F823007FE36D /* Diver.swift */,
+				FFCF1D5D2647F823007FE36D /* DiverFactory.swift */,
+				FFCF1D5E2647F823007FE36D /* Men.swift */,
+			);
+			path = Dive;
+			sourceTree = "<group>";
+		};
+		FFCF1D5F2647F823007FE36D /* Animal */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF1D602647F823007FE36D /* Snake.swift */,
+				FFCF1D612647F823007FE36D /* Shark.swift */,
+				FFCF1D622647F823007FE36D /* AnimalFactory.swift */,
+				FFCF1D632647F823007FE36D /* Animal.swift */,
+				FFCF1D642647F823007FE36D /* Burp.swift */,
+			);
+			path = Animal;
+			sourceTree = "<group>";
+		};
+		FFCF1D652647F823007FE36D /* Sea */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF1D662647F823007FE36D /* Sea.swift */,
+				FFCF1D672647F823007FE36D /* SeaFactory.swift */,
+			);
+			path = Sea;
+			sourceTree = "<group>";
+		};
+		FFCF1D732647F82F007FE36D /* SquareRectangleExample */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF1D742647F82F007FE36D /* SOLID */,
+				FFCF1D782647F82F007FE36D /* NotSOLID */,
+			);
+			path = SquareRectangleExample;
+			sourceTree = "<group>";
+		};
+		FFCF1D742647F82F007FE36D /* SOLID */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF1D752647F82F007FE36D /* SOLIDShape.swift */,
+				FFCF1D762647F82F007FE36D /* SOLIDSquare.swift */,
+				FFCF1D772647F82F007FE36D /* SOLIDRectangle.swift */,
+			);
+			path = SOLID;
+			sourceTree = "<group>";
+		};
+		FFCF1D782647F82F007FE36D /* NotSOLID */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF1D792647F82F007FE36D /* NotSOLIDRectangle.swift */,
+				FFCF1D7A2647F82F007FE36D /* NotSOLIDSquare.swift */,
+			);
+			path = NotSOLID;
+			sourceTree = "<group>";
+		};
+		FFCF1D812647F835007FE36D /* ATMExample */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF1D822647F835007FE36D /* SOLID */,
+				FFCF1D892647F835007FE36D /* NotSOLID */,
+				FFCF1D8D2647F835007FE36D /* Transaction.swift */,
+			);
+			path = ATMExample;
+			sourceTree = "<group>";
+		};
+		FFCF1D822647F835007FE36D /* SOLID */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF1D832647F835007FE36D /* DepositUI.swift */,
+				FFCF1D842647F835007FE36D /* SOLIDDepositUI.swift */,
+				FFCF1D852647F835007FE36D /* TransferUI.swift */,
+				FFCF1D862647F835007FE36D /* SOLIDDepositTransaction.swift */,
+				FFCF1D872647F835007FE36D /* SOLIDATM.swift */,
+				FFCF1D882647F835007FE36D /* WithdrawalUI.swift */,
+			);
+			path = SOLID;
+			sourceTree = "<group>";
+		};
+		FFCF1D892647F835007FE36D /* NotSOLID */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF1D8A2647F835007FE36D /* NotSOLIDDepositTransaction.swift */,
+				FFCF1D8B2647F835007FE36D /* NotSOLIDConsoleATM.swift */,
+				FFCF1D8C2647F835007FE36D /* NotSOLIDATM.swift */,
+			);
+			path = NotSOLID;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFCF1D1F2647F7BF007FE36D /* SOLIDExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFCF1D342647F7C1007FE36D /* Build configuration list for PBXNativeTarget "SOLIDExample" */;
+			buildPhases = (
+				FFCF1D1C2647F7BF007FE36D /* Sources */,
+				FFCF1D1D2647F7BF007FE36D /* Frameworks */,
+				FFCF1D1E2647F7BF007FE36D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOLIDExample;
+			productName = SOLIDExample;
+			productReference = FFCF1D202647F7BF007FE36D /* SOLIDExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFCF1D182647F7BF007FE36D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FFCF1D1F2647F7BF007FE36D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = FFCF1D1B2647F7BF007FE36D /* Build configuration list for PBXProject "SOLIDExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFCF1D172647F7BF007FE36D;
+			productRefGroup = FFCF1D212647F7BF007FE36D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFCF1D1F2647F7BF007FE36D /* SOLIDExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFCF1D1E2647F7BF007FE36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCF1D302647F7C1007FE36D /* LaunchScreen.storyboard in Resources */,
+				FFCF1D2D2647F7C1007FE36D /* Assets.xcassets in Resources */,
+				FFCF1D2B2647F7BF007FE36D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFCF1D1C2647F7BF007FE36D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCF1D6D2647F823007FE36D /* AnimalFactory.swift in Sources */,
+				FFCF1D4B2647F7F0007FE36D /* SOLIDSchedulerFactory.swift in Sources */,
+				FFCF1D962647F835007FE36D /* NotSOLIDATM.swift in Sources */,
+				FFCF1D6C2647F823007FE36D /* Shark.swift in Sources */,
+				FFCF1D4D2647F7F0007FE36D /* Service.swift in Sources */,
+				FFCF1D582647F7F0007FE36D /* NotSOLIDTimelineService.swift in Sources */,
+				FFCF1D512647F7F0007FE36D /* SOLIDClient.swift in Sources */,
+				FFCF1D4F2647F7F0007FE36D /* SOLIDTimelineService.swift in Sources */,
+				FFCF1D522647F7F0007FE36D /* SOLIDServiceFactory.swift in Sources */,
+				FFCF1D7B2647F82F007FE36D /* SOLIDShape.swift in Sources */,
+				FFCF1D952647F835007FE36D /* NotSOLIDConsoleATM.swift in Sources */,
+				FFCF1D972647F835007FE36D /* Transaction.swift in Sources */,
+				FFCF1D702647F823007FE36D /* Sea.swift in Sources */,
+				FFCF1D942647F835007FE36D /* NotSOLIDDepositTransaction.swift in Sources */,
+				FFCF1D922647F835007FE36D /* SOLIDATM.swift in Sources */,
+				FFCF1D7F2647F82F007FE36D /* NotSOLIDSquare.swift in Sources */,
+				FFCF1D6F2647F823007FE36D /* Burp.swift in Sources */,
+				FFCF1D562647F7F0007FE36D /* NotSOLIDServiceScheduler.swift in Sources */,
+				FFCF1D552647F7F0007FE36D /* NotSOLIDProfileService.swift in Sources */,
+				FFCF1D282647F7BF007FE36D /* ViewController.swift in Sources */,
+				FFCF1D4A2647F7F0007FE36D /* SOLIDProfileService.swift in Sources */,
+				FFCF1D682647F823007FE36D /* Diver.swift in Sources */,
+				FFCF1D7D2647F82F007FE36D /* SOLIDRectangle.swift in Sources */,
+				FFCF1D8E2647F835007FE36D /* DepositUI.swift in Sources */,
+				FFCF1D4C2647F7F0007FE36D /* SOLIDServiceScheduler.swift in Sources */,
+				FFCF1D6E2647F823007FE36D /* Animal.swift in Sources */,
+				FFCF1D7E2647F82F007FE36D /* NotSOLIDRectangle.swift in Sources */,
+				FFCF1D542647F7F0007FE36D /* Client.swift in Sources */,
+				FFCF1D912647F835007FE36D /* SOLIDDepositTransaction.swift in Sources */,
+				FFCF1D242647F7BF007FE36D /* AppDelegate.swift in Sources */,
+				FFCF1D262647F7BF007FE36D /* SceneDelegate.swift in Sources */,
+				FFCF1D712647F823007FE36D /* SeaFactory.swift in Sources */,
+				FFCF1D932647F835007FE36D /* WithdrawalUI.swift in Sources */,
+				FFCF1D902647F835007FE36D /* TransferUI.swift in Sources */,
+				FFCF1D7C2647F82F007FE36D /* SOLIDSquare.swift in Sources */,
+				FFCF1D692647F823007FE36D /* DiverFactory.swift in Sources */,
+				FFCF1D8F2647F835007FE36D /* SOLIDDepositUI.swift in Sources */,
+				FFCF1D6A2647F823007FE36D /* Men.swift in Sources */,
+				FFCF1D572647F7F0007FE36D /* NotSOLIDClient.swift in Sources */,
+				FFCF1D4E2647F7F0007FE36D /* Timer.swift in Sources */,
+				FFCF1D532647F7F0007FE36D /* SOLIDTimer.swift in Sources */,
+				FFCF1D6B2647F823007FE36D /* Snake.swift in Sources */,
+				FFCF1D502647F7F0007FE36D /* ServiceScheduler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFCF1D292647F7BF007FE36D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFCF1D2A2647F7BF007FE36D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFCF1D2E2647F7C1007FE36D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFCF1D2F2647F7C1007FE36D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFCF1D322647F7C1007FE36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFCF1D332647F7C1007FE36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFCF1D352647F7C1007FE36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7Q5L6M8BH;
+				INFOPLIST_FILE = SOLIDExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hitesh.SOLIDExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFCF1D362647F7C1007FE36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7Q5L6M8BH;
+				INFOPLIST_FILE = SOLIDExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hitesh.SOLIDExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFCF1D1B2647F7BF007FE36D /* Build configuration list for PBXProject "SOLIDExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCF1D322647F7C1007FE36D /* Debug */,
+				FFCF1D332647F7C1007FE36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFCF1D342647F7C1007FE36D /* Build configuration list for PBXNativeTarget "SOLIDExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCF1D352647F7C1007FE36D /* Debug */,
+				FFCF1D362647F7C1007FE36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFCF1D182647F7BF007FE36D /* Project object */;
+}
